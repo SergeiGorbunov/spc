@@ -137,19 +137,19 @@ main {
     background-position: center;
 }
 .nav-item__icon:nth-child(1) {
-    background-image: url("/img/phone.svg");
+    background-image: url("../img/phone.svg");
 }
 .nav-item__icon:nth-child(2){
-    background-image: url("/img/message.svg");
+    background-image: url("../img/message.svg");
 }
 .nav-item__icon:nth-child(3){
-    background-image: url("/img/account.svg");
+    background-image: url("../img/account.svg");
 }
 .nav-item__icon.nav-item__settings{
-    background-image: url("/img/settings.svg");
+    background-image: url("../img/settings.svg");
 }
 .nav-item__icon.nav-item__search{
-    background-image: url("/img/search.svg");
+    background-image: url("../img/search.svg");
 }
 .nav-item__border-block {
     width: 2px;
