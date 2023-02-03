@@ -17,6 +17,7 @@
     margin: 0;
 
     font-family: 'TT Lakes Regular';
+    overflow-x: hidden;
 }
 
 ul, li, ol {
