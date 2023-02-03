@@ -59,8 +59,8 @@ main {
 }
 
 .nav-item__burger-box {
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
 
     border-radius: 50%;
 
@@ -75,7 +75,11 @@ main {
     margin-left: 10px;
 }
 
-.nav-item__burger-menu {
+
+
+
+/*
+    .nav-item__burger-menu {
     width: 10px;
     height: 2px;
     display: block;
@@ -93,7 +97,7 @@ main {
     order: -1;
 }
 
-.nav-item__burger-menu:before {
+    .nav-item__burger-menu:before {
     content: "";
     width: 18px;
     height: 100%;
@@ -121,7 +125,7 @@ main {
     z-index: 1;
 
     border-radius: 1px;
-}
+} */
 
 .nav-item__icons {
     display: flex;
@@ -139,6 +143,11 @@ main {
     margin-left: 8px;
     background-repeat: no-repeat;
     background-position: center;
+}
+.nav-item__burger-box {
+    background-image: url('/img/burger.svg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .nav-item__icon:nth-child(1) {
     background-image: url("../img/phone.svg");
@@ -312,6 +321,15 @@ main {
     border-radius: 6px;
 }
 
+@media screen and (max-width: 1120px) {
+    header {
+        display: block;
+    }
+    .content__title-box--headers {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1044px) {
     .content__title-box--headers {
         width: 37%;
@@ -342,8 +360,21 @@ main {
 
 @media screen and (max-width: 768px) {
     /* Nav */
-    header {
-        display: block;
+
+    .nav-item__border-block--position {
+        display: none;
+    }
+
+    .nav-item__phone {
+        display: none;
+    }
+
+    .nav-item__messages {
+        display: none;
+    }
+
+    .nav-item__account {
+        display: none;
     }
 
     .nav-item__icon:nth-child(3) {
@@ -356,9 +387,7 @@ main {
         margin-top: 0;
     }
 
-    .content__title-box--headers {
-        display: none;
-    }
+
 
     .content__reviews {
         display: none;
@@ -405,23 +434,6 @@ main {
     }
 }
 
-@media screen and (max-width: 508px) {
-    .nav-item__border-block--position {
-        display: none;
-    }
-
-    .nav-item__phone {
-        display: none;
-    }
-
-    .nav-item__messages {
-        display: none;
-    }
-
-    .nav-item__account {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 470px) {
     .content__description {
