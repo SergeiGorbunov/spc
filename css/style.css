@@ -37,6 +37,9 @@ main {
 .content__carousel::-webkit-scrollbar {
     display: none;
 }
+.content__carousel {
+    scrollbar-width: none;
+}
 /* Header */
 .nav-items {
     display: flex;
