@@ -73,6 +73,8 @@ main {
     align-items: center;
 
     margin-right: 10px;
+    cursor: pointer;
+
 }
 
 .nav-item__logo {
@@ -96,6 +98,8 @@ main {
     margin-left: 8px;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+
 }
 .nav-item__burger-box {
     background-image: url('../img/burger.svg');
@@ -164,6 +168,8 @@ main {
 .content__title-box-header {
     display: flex;
     align-items: center;
+    cursor: pointer;
+
 }
 
 .content__title-box-head-title {
@@ -200,6 +206,7 @@ main {
     letter-spacing: .2px;
 
     color: #7E7E82;
+    cursor: pointer;
 }
 
 .content__carousel-item--active {
@@ -225,6 +232,8 @@ main {
 .content__reviews {
     color: #7E7E82;
     letter-spacing: -.2px;
+    cursor: pointer;
+
 }
 
 .content__content-container {
@@ -259,6 +268,8 @@ main {
 
     margin-top: 23px;
     margin-left: 24px;
+    cursor: pointer;
+
 }
 
 .content__read-next--link {
